@@ -2,15 +2,15 @@ Project Proposal:
 The Chicago Transit Authority (CTA) is in charge of affordable public transportation in Chicago, including both trains and buses. The CTA and the City of Chicago keeps track of information about trains, buses, daily ridership, overall operation expenses, and general contracts. In the next year, the CTA will add additional buses to select routes; our initial motivation is to use a variety of data to predict how successful this will be in increasing ridership.
 
 
-Data Set:
+Data Sets:
 On this CTA site https://www.transitchicago.com/data/, the most useful datasets seem to me to be:
-All the ridership ones,
-Maybe some of the bus/train tracking APIs,
+* All the ridership ones,
+* Maybe some of the bus/train tracking APIs,
 
 From CTA at https://rtams.org/data-transparency-portal:
-Contracts,
-Expenditures,
-Employees,
+* Contracts,
+* Expenditures,
+* Employees,
 
 From https://rtams.org/media/datasets/cta-ridership:
 Daily ridership averages for bus and train separately (not sure if this info is different from other info),
@@ -18,6 +18,8 @@ Daily ridership averages for bus and train separately (not sure if this info is 
 Monthly/annual ridership reports (mostly just PDF datasets with an executive summary): https://www.transitchicago.com/ridership/
 
 (Probably redundant ridership stats: https://rtams.org/ridership)
+
+A possible problem to solve is to figure out whether or not the proposed additional bus service on select lines will be successful; by this we mean: pofitable, more efficient, increased ridership?
 -----------------------------------------------
 
 Ideas so far on stakeholders:
