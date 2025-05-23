@@ -1,1 +1,34 @@
+Project Proposal:
+The Chicago Transit Authority (CTA) is in charge of affordable public transportation in Chicago, including both trains and buses. The CTA and the City of Chicago keeps track of information about trains, buses, daily ridership, overall operation expenses, and general contracts. In the next year, the CTA will add additional buses to select routes; our initial motivation is to use a variety of data to predict how successful this will be in increasing ridership.
 
+
+Data Set:
+On this CTA site https://www.transitchicago.com/data/, the most useful datasets seem to me to be:
+All the ridership ones,
+Maybe some of the bus/train tracking APIs,
+
+From CTA at https://rtams.org/data-transparency-portal:
+Contracts,
+Expenditures,
+Employees,
+
+From https://rtams.org/media/datasets/cta-ridership:
+Daily ridership averages for bus and train separately (not sure if this info is different from other info),
+
+Monthly/annual ridership reports (mostly just PDF datasets with an executive summary): https://www.transitchicago.com/ridership/
+
+(Probably redundant ridership stats: https://rtams.org/ridership)
+-----------------------------------------------
+
+Ideas so far on stakeholders:
+The City of Chicago,
+CTA riders,
+CTA employees,
+-----------------------------------------------
+
+For company (CTA?) KPIs, this site could provide insight into what the CTA sees as its goals: https://www.transitchicago.com/performance/
+
+Some highlights are:
+A bunch of (current but not past?) info on priorities like ridership, on-time service, efficiency, customer service, safety, and cleanliness,
+Customer satisfaction surveys from 2020-2024 😯  -- this actually looks like it could be very interesting! Maybe would need some work to become usable?,
+Transit Asset Management Plan
