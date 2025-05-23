@@ -1,5 +1,10 @@
 Project Proposal:
-The Chicago Transit Authority (CTA) is in charge of affordable public transportation in Chicago, including both trains and buses. The CTA and the City of Chicago keeps track of information about trains, buses, daily ridership, overall operation expenses, and general contracts. In the next year, the CTA will add additional buses to select routes; our initial motivation is to use a variety of data to predict how successful this will be in increasing ridership.
+The Chicago Transit Authority (CTA) is in charge of affordable public transportation in Chicago, including both trains and buses. 
+The CTA and the City of Chicago keeps track of information about trains, buses, daily ridership, overall operation expenses, and general contracts. 
+In the next year, the CTA will add additional buses to select routes; our initial motivation is to use a variety of data to predict how successful 
+this will be in increasing ridership.
+
+-----------------------------------------------
 
 
 Data Sets:
@@ -22,7 +27,8 @@ Monthly/annual ridership reports (mostly just PDF datasets with an executive sum
 -----------------------------------------------
 
 Possible Problem:
-A possible problem to solve is to figure out whether or not the proposed additional bus service on select lines will be successful; by this we mean: pofitable, more efficient, increased ridership?
+A possible problem to solve is to figure out whether or not the proposed additional bus service on select lines will be successful; by this we mean: 
+profitable, more efficient, increased ridership?
 -----------------------------------------------
 
 Ideas so far on stakeholders:
