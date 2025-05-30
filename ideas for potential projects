@@ -1,0 +1,104 @@
+Ideas on potential projects:
+
+***********************************
+CTA Adds Additional Bus Service Across City
+Source: https://www.transitchicago.com/cta-adds-additional-bus-service-across-city/
+* the additional bus service started August 25, 2024, "nearly a dozen bus routes are receiving additional service"
+
+Claim (from Aug 23, 2024): "we've improved service on 59 bus routes this year - bringing our bus
+system back to 98% of pre-pandemic scheduled service levels ... we are still on track to fully 
+restore pre-pandemic schedules bus service by the end of 2024" -- IS THIS TRUE?
+
+Which routes will get increased service?
+21 Cermak
+22 Clark
+24 Wentworth
+53A South Pulaski
+62 Archer
+77 Belmont
+87 87th
+94 California
+146 Inner Lake Shore/Michigan express
+152 Addison
+156 LaSalle
+
+"The CTA has seen increased in ridership on routes that have received additional service throughout the
+year. Ridership on routes receiving additional service in March went up 21% year-over-year during June 
+and July. Ridership on the routes that received additional service in June was up 18% year-over-year
+during June and July. Routes that did not receive service adjustments this year have also seen 12%
+higher ridership year-over-year during the same period."
+
+***********************************
+CTA Launches New Frequent Network for Buses
+source: https://www.transitchicago.com/cta-launches-new-frequent-network-for-buses/
+Starting March 23, 2025, CTA implemented service that will arrive every 10 minutes or sooner on
+20 bus routes between 6am-9pm on weekdays, 9am-9pm on weekends (most service improvement will be seen
+midday, evenings, and weekends). 
+"Routes that are part of the Frequent Network will see the highest level of scheduled service since 2010
+when the CTA was forced to implement service reductions due to funding constraints. With the initial set of eight 
+routes going live this Spring, 35% of the population will be within a half mile of a Frequent Route. Once the 
+Frequent Network is fully implemented, by the end of 2025, 70% of the CTA service area will be within
+half a mile of a frequent route."
+
+The 8 routes that are part of the initial stage:
+J14 Jeffery Jump
+34 South Michigan
+47 47th Street
+54 Cicero
+60 Blue Island/26th
+63 63rd Treet
+79 79th Street
+95 95th Street
+
+Estimated that these lines J14, 34, 47, 60, 95 will see a 25% or more increase in service.
+SO, a simple question is: is this true, can we see an increase in ridership on these lines already?
+At what times of day?
+
+Maybe we could look into what lines *should* have more buses added?
+
+***********************************
+Information on Bus Vision Project:
+The Chicago Bus Vision Project "will help shape how CTA reimagines Chicago's bus netowrk what improvements
+it should implement in the future. It began with the development of a Framing Report, an extensive analysis
+of the existing CTA bus network."
+https://ctabusvisionproject.com/project-documents/
+
+
+***********************************
+Some questions:
+Ridership Impact:
+* did ridership increase on the routes where the buses were added?
+* how does ridership per bus compare before and after the change?
+* was the increase in ridership statistically significant?
+
+Operational Efficiency:
+* did the average wait time or delay decreae?
+* did the percentage of on-time arrivals improve?
+* was bus congestion or overcrowding alleviated?
+
+Cost-effectiveness:
+* do we have information to figure out if cost per additional rider change?
+* did added service provide good value compared to historical expenditure-to-ridership ratios?
+
+Equity & Accessibility:
+* were the increases in service targeted at underserved or high-demand areas?
+* did the increase help improve access for neighborhoods with fewer transit options?
+
+Some data science techniques we can use:
+* time series analysis: compare ridership trends before and after bus additions
+* causal inference: compare affected routes to similar unaffected ones over the same period
+* geospatial analysis: visualize changes in ridership and wait times across neighborhoods
+* clustering: group routes or stops to identify where the biggest gains were realized
+* cost-benefit analysis: compare operational costs to change in ridership or service quality
+
+Data sources and how to use them:
+* bus tracking APIs: calculate wait times, headways, on-time performance
+* ridership data: cmopare daily/route-level changes over time
+* employee & expenditure data: analyze cost per route or per additional bus
+* contract data: understand which routes were prioritized and how vendor performance may play a role
+
+Possible deliverables:
+* an interactive dashboard showing key performancce metrics for each route (before vs. after)
+* a geospatial heatmap of ridership changes by neighborhood or stop
+* a report quantifying the 'return on investment' of adding buses using ridership gains and cost data
+* a machine learning model to predict which other routes might benefit from additional service
