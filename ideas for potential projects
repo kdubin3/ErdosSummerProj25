@@ -72,7 +72,7 @@ Ridership Impact:
 * was the increase in ridership statistically significant?
 
 Operational Efficiency:
-* did the average wait time or delay decreae?
+* did the average wait time or delay decrease?
 * did the percentage of on-time arrivals improve?
 * was bus congestion or overcrowding alleviated?
 
@@ -87,7 +87,7 @@ Equity & Accessibility:
 Some data science techniques we can use:
 * time series analysis: compare ridership trends before and after bus additions
 * causal inference: compare affected routes to similar unaffected ones over the same period
-* geospatial analysis: visualize changes in ridership and wait times across neighborhoods
+** geospatial analysis: visualize changes in ridership and wait times across neighborhoods
 * clustering: group routes or stops to identify where the biggest gains were realized
 * cost-benefit analysis: compare operational costs to change in ridership or service quality
 
@@ -99,6 +99,9 @@ Data sources and how to use them:
 
 Possible deliverables:
 * an interactive dashboard showing key performancce metrics for each route (before vs. after)
-* a geospatial heatmap of ridership changes by neighborhood or stop
+*** a geospatial heatmap of ridership changes by neighborhood or stop
 * a report quantifying the 'return on investment' of adding buses using ridership gains and cost data
 * a machine learning model to predict which other routes might benefit from additional service
+
+Features:
+* line, stop, frequency of service
